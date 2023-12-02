@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    /* header */
+.head{
+    width: 100%;
+    height: 800px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+.head .logo{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+.head .logo img{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.head .nav{
+    width: 60%;
+    height: 100px;
+    float: right;
+}
+.head .nav ul{
+    float: right;
+    margin-right: 50px;
+}
+.head .nav ul li{
+    display: inline-block;
+    line-height: 100px;
+}
+.head .nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin-right: 40px;
+}
+.head .nav ul li button{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(235,43,99);
+    cursor: pointer;
+}
+.head .second{
+    width: 100%;
+    height: 800px;
+}    
+.head .second img{
+    position: relative;
+    float: right;
+    margin-top: 120px;
+    margin-right: 150px;
+}
+.head .second h1{
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-left: 70px;
+    margin-top: 110px;  
+}
+.head .second p{
+    font-size: 20px;
+    color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.head .second button{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 70px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(235,43,99);
+    cursor: pointer;
+}
+    /* header */
+
+    /* third */
+ .third{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid; */
+ } 
+ .third .ttext{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid; */
+    margin-bottom: 100px;
+ }
+ .third .ttext img{
+    margin-left: 49%;
+    margin-top: 60px;
+ }
+ .third .ttext h1{
+    text-align: center;
+    font-size: 50px;
+ }
+ .third .ttext p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+ }
+.third .box{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+}
+.third .box .b1{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.third .b1 #big{
+    width: 120px;
+    height: 120px;
+    margin-top: -40px;
+    line-height: 120px;
+}
+.third .box .b1 .B{
+    width: 30%;
+    /* border: 1px solid; */
+  
+}
+.third .box .b1 .B h1{
+    text-align: center;
+    margin-block:40px;
+
+}
+.third .box .b{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 40%;
+    text-align: center;
+    color: white;
+    background-color:rgb(235,43,99); 
+}
+.third .box .b .fa-regular{
+    line-height: 80px;
+}
+.third .box .b .fa-solid{
+    line-height: 80px;
+}
+
+
+    /* third */
+
+    /* fourth */
+    .forth{
+        width: 100%;
+        height: 400px;
+        border: 1px solid;
+        margin-top: 100PX;
+        background-image: url(domain-bg.jpg);
+    }
+    .forth .mail{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .forth .mail input{
+        width: 800px;
+        height: 60px;
+        border-radius: 10px;
+        border: none;text-align: center;
+    }
+    .forth .mail button{
+        width: 200px;
+        height: 60px;
+        background-color: rgb(235,43,99); 
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        margin-left: 20px;
+    }
+    .enter #text{
+        color: white;
+    }
+    /* fourth */
+
+
+    /* fifth */
+    .load{
+        width: 100%;
+        height: 500px;
+        border: 1px solid;
+        margin-top: 100px;
+        display: flex;
+    }
+    .load-1{
+        width: 50%;
+        height: inherit;
+        border: 1px solid;
+    }
+    .load-2{
+        width: 50%;
+        height: inherit;
+        border: 1px solid;
+    }
+    /* fifth */
